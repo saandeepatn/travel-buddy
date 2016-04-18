@@ -16,7 +16,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAng6hcxJOGuZGbvD9VvBr3hshyQ0NqZsg" />
+            android:value="<key>" />
 
         <activity
             android:name=".PlacePickerActivity"
@@ -32,7 +32,7 @@
         <activity android:name=".TweetTimeline"></activity>
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="435f2492f24083023123879ad3ac63a19786bc44" />
+            android:value="<key>" />
     </application>
 
 </manifest>
