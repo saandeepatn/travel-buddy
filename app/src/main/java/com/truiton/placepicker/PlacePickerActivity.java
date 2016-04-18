@@ -116,7 +116,7 @@ public class PlacePickerActivity extends AppCompatActivity {
             mAddress.setText(address);
             mAttributions.setText(Html.fromHtml(attributions));
             //added to get place id
-            Toast.makeText(PlacePickerActivity.this, placeid,
+            /*Toast.makeText(PlacePickerActivity.this, placeid,
                     Toast.LENGTH_LONG).show();
 
             Toast.makeText(PlacePickerActivity.this, name,
@@ -127,7 +127,7 @@ public class PlacePickerActivity extends AppCompatActivity {
 
             Toast.makeText(PlacePickerActivity.this,""+latilongi+"" ,
                     Toast.LENGTH_LONG).show();
-
+*/
             Geocoder gcd = new Geocoder(PlacePickerActivity.this, Locale.getDefault());
             try {
                 List<Address> addresses = gcd.getFromLocation(lat, lng, 1);
